@@ -71,7 +71,7 @@ jobs:
           os: ubuntu-22.04-arm
           rust: stable
           target: armv7-unknown-linux-gnueabihf
-          cross: false
+          cross: true
 
     steps:
       - name: Checkout sources
