@@ -9,6 +9,7 @@ on:
   pull_request:
     paths:
     - '.github/workflows/release.yml'
+  workflow_dispatch:
 
 env:
   # Preview mode: Publishes the build output as a CI artifact instead of creating
