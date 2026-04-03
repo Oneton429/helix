@@ -59,7 +59,7 @@ jobs:
     strategy:
       fail-fast: false # don't fail other jobs if one fails
       matrix:
-        build: [aarch64-linux, ]
+        build: [aarch64-linux, armv7-linux]
         include:
         - build: aarch64-linux
           # Version should be kept in lockstep with the x86_64 version
